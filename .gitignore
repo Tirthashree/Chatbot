@@ -1,0 +1,5 @@
+models
+__pycache__
+service.log
+src/conversation_history.json
+src/database.json

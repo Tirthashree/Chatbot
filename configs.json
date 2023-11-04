@@ -1,0 +1,26 @@
+{
+    "replicate_key": "",
+    "rebuff_token": "",
+    "sentiment": {
+        "save_models_path": {
+            "tokenizer": "models/sentiment_tokenizer",
+            "model": "models/sentiment"
+        },
+        "first_run": true
+    },
+    "ner": {
+        "save_models_path": {
+            "tokenizer": "models/ner_tokenizer",
+            "model": "models/ner"
+        },
+        "first_run": true,
+        "db_path": "src/database.json",
+        "B-PER": "name",
+        "I-PER": "name",
+        "B-LOC": "location",
+        "I-LOC": "location",
+        "B-ORG": "organization",
+        "I-ORG": "organization"
+    },
+    "conversation_history_path": "src/conversation_history.json"
+}
