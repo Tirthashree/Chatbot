@@ -19,7 +19,7 @@ To run the service:
 ```pip install -r requirements.txt```
 5. Run the following command in terminal:\
 ```uvicorn main:app```
-6. Hit the endpoint: http://127.0.0.1:8000/chat\
+6. Hit the endpoint: http://127.0.0.1:8000/chat \
 Sample payload:
     ```javascript
         {
