@@ -8,7 +8,7 @@ The extracted information is currently stored in a JSON file.\
 \
 The chatbot is powered by Llama-2 chat model via [Replicate](https://replicate.com/).\
 \
-In addition to the above, prompt injections are also detected using [Rebuff AI](https://www.rebuff.ai/).\
+In addition to the above functions, prompt injections are also detected using [Rebuff AI](https://www.rebuff.ai/).\
 \
 The service was created in Python 3.9.13.
 To run the service:
